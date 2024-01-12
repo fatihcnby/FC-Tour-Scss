@@ -1,0 +1,30 @@
+
+.discover{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3rem;
+    &-content{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 50px;
+        color: $body-color;
+        h2{
+            font-size: 6vmin;
+            color: $secondary-color;
+        }
+
+        p {
+            color: $thirdy-color;
+        }
+
+    }
+}

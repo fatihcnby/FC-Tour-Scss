@@ -1,0 +1,46 @@
+
+.events{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    &-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3rem;
+        h1{
+            font-size: 5vmin;
+            color: $primary-color;
+        }
+    }
+    &-down{
+        padding: 3rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        &-left, &-right{
+            width: 45%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            h4{
+                font-size: 3vmin;
+                color: $primary-color;
+            }
+
+            img{
+                height: 200px;
+                width: 100%;
+            }
+            p{
+                color: $thirdy-color;
+            }
+        }
+       
+    }
+
+}
+
