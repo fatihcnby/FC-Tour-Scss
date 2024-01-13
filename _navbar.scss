@@ -28,6 +28,10 @@
       color: $text-color;
       padding: 0 10px;
     }
+
+    &-item-link:hover {
+      color: $primary-color;
+    }
   }
 }
 .icon {

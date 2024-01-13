@@ -59,6 +59,9 @@ header .header-content h1 {
   color: whitesmoke;
   padding: 0 10px;
 }
+.navbar .menu-links-item-link:hover {
+  color: #fc036b;
+}
 
 .icon {
   width: 40px;
